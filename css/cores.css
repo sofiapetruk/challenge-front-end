@@ -1,3 +1,70 @@
- h1{
+header {
     
- }
+    color: rgb(20, 31, 175);
+}
+
+h1{
+    position: absolute;
+    top: 30px;
+    left: 100x;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    display: inline;
+    font-size: 25px;
+    
+}
+
+.link{
+    display: inline;
+    margin: 5%;
+    position:relative;
+    top: -70px;
+    left: 300px;
+}
+
+nav ul li a {
+    font-weight: bold; 
+    
+}
+
+.container {
+    margin: 20px;
+}
+form {
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    color: #2826b8;
+}
+#rodape {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    color: #737373;
+}
+.cabecalho nav ul li a {
+    color: #737373;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: #00BF63; 
+    color: white; 
+    padding: 10px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-align: justify;
+}
+#espaçamento {
+    line-height: 1.5;
+}
