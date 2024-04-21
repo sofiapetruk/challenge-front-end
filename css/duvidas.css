@@ -1,6 +1,6 @@
 
 
-h1{
+#top{
     position: absolute;
     top: 30px;
     left: 100x;
@@ -50,8 +50,24 @@ nav ul li a {
     font-size: 18px;
     font-weight: 700;
     line-height: 32.57px;
-    
-    
+
+}
+
+#conteudo {
+    width: 456px;
+    height: 45px;
+    top: 242px;
+    left: 37px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45.61px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+
+
 
 }
 
