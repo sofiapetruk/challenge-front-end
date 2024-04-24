@@ -30,11 +30,6 @@ body {
     background: #00BF63;
     border: 1px solid #00BF63;
 }
-.cadastro{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-}
 
 .titulo-login {
     width: 403px;
@@ -123,7 +118,51 @@ body {
 
 }
 
+
+
+
+.cadastro{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#título2 {
+    display: block;
+    width: 410px;
+    height: 70px;
+    top: 20px;
+    left: 706px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 0px;
+    color: rgba(0, 0, 255, 1);
+
+}    
+
+#subtítulo {
+    width: 340.83px;
+    height: 40.33px;
+    top: 81.64px;
+    left: 742px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+
+
 #nome-cadastro {
+    display: block;
     width: 123px;
     height: 33px;
     top: 299px;
@@ -140,7 +179,6 @@ body {
 }
 
 #nome {
-    
     width: 350px;
     height: 30px;
     top: 349px;
@@ -151,4 +189,113 @@ body {
     background: rgba(217, 217, 217, 1);
     border: 1px solid rgba(0, 0, 0, 1);
     text-align: justify;
+}
+
+#email-cadastro {
+    display: block;
+    width: 123px;
+    height: 33px;
+    top: 299px;
+    left: 49px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 39.09px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    
+}
+
+#email {
+    width: 350px;
+    height: 30px;
+    top: 349px;
+    left: 40px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(217, 217, 217, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    text-align: justify;
+
+}
+
+#telefone {
+    display: block;
+    width: 123px;
+    height: 33px;
+    top: 299px;
+    left: 49px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 39.09px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+#telefone1 {
+    width: 350px;
+    height: 30px;
+    top: 349px;
+    left: 40px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(217, 217, 217, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    text-align: justify;
+
+}
+
+#senha-cadastro {
+    display: block;
+    width: 123px;
+    height: 33px;
+    top: 299px;
+    left: 49px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 39.09px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+
+}
+
+#senha2 {
+    width: 350px;
+    height: 30px;
+    top: 349px;
+    left: 40px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(217, 217, 217, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    text-align: justify;
+
+}
+
+.cadstro {
+    margin-top: 10px;
+    width: 225x;
+    height: 65px;
+    top: 700px;
+    left: 735px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid rgba(0, 0, 0, 1)
+
+}
+
+a {
+    color: rgba(0, 0, 255, 1);
+
 }
