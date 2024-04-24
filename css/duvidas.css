@@ -71,6 +71,9 @@ nav ul li a {
     font-size: 18px;
     font-weight: 700;
     line-height: 32.57px;
+    background-color: #FFF8F8;
+
+    ;
 
 }
 
@@ -84,9 +87,23 @@ nav ul li a {
     text-align: left;  
     align-items: flex-start;
     color: rgba(0, 0, 0, 1);
-    background-color: aliceblue;
-
-
 
 }
+
+h2 {
+    width: 130px;
+    height: 33px;
+    top: 351px;
+    left: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.57px;
+    text-align: center;
+    color: #000000;
+
+}
+
 
