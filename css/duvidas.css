@@ -1,3 +1,4 @@
+
 hr{
     width: 1440px;
     border: 1px solid rgba(0, 0, 0, 1);
@@ -41,7 +42,7 @@ nav{
     width: 70%;
 }
 
-.cabecalho nav ul li a {
+nav ul li a {
     font-weight: bold; 
     font-family: Inika;
     font-size: 18px;
@@ -74,66 +75,33 @@ nav{
 
 }
 
+#título {
+    padding-left: 16px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;  
+    align-items: flex-start;
+    color: rgba(0, 0, 0, 1);
 
-.container {
-    margin: 20px;
-}
-form {
-    padding: 10px;
-    position: absolute;
-    top: 30px;
-    right: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold; 
-    color: #2826b8;
-}
-#rodape {
-    position: absolute;
-    bottom: -250px;
-    left: 10px;
-    color: #737373;
 }
 
-h2, h3, h4{
-    font-family: Arial, Helvetica, sans-serif;
+h2 {
+    width: 130px;
+    height: 33px;
+    top: 351px;
+    left: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
     font-size: 25px;
-    background-color: #00BF63; 
-    color: white; 
-    padding: 10px;
+    font-weight: 700;
+    line-height: 32.57px;
+    text-align: center;
+    color: #000000;
+
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
-    text-align: justify;
-}
-#espaçamento {
-    line-height: 1.5;
-}
-#conteudo{
-    width: 600px;
-    height: 500px;
-}
-#conteudo2{
-    width: 600px;
-    height: 500px;
-    position: absolute;
-    bottom: 0px;
-    left: 700px;
-}
-#imagemobjetivo{
-    position: relative;
-    bottom: 278px;
-    left: 200px;
-}
-#imagemfuncionalidade{
-    position: relative;
-    bottom: 215px;
-    left: 200px;
-}
-#imagemdiferencial{
-    position: relative;
-    bottom: 600px;
-   left: 900px;
-}
 
