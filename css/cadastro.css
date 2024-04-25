@@ -125,15 +125,28 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-   
+    width: 100%;
+
 }
 
+.cadastro .cabecalho{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cabecalho .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cabecalho .right{
+    display: flex;
+    justify-content: end;
+}
 #título2 {
-    display: block;
-    width: 410px;
-    height: 70px;
-    top: 20px;
-    left: 706px;
     gap: 0px;
     opacity: 0px;
     font-family: Inika;
@@ -145,17 +158,23 @@ body {
 }    
 
 #subtítulo {
-    width: 340.83px;
-    height: 40.33px;
-    top: 81.64px;
-    left: 742px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Inika;
     font-size: 25px;
     font-weight: 500;
-    line-height: 20px;
+    text-align: left;
+    align-items: flex-start;
     color: rgba(0, 0, 0, 1);
+    
+
+}
+
+#imagem {
+    width: 100px;
+    height: 80px;
+    top: 12.29px;
+    left: 1182px;
+    gap: 0px;
+    opacity: 0px;
 
 }
 
@@ -269,6 +288,7 @@ body {
 }
 
 #senha2 {
+    display: block;
     width: 350px;
     height: 30px;
     top: 349px;
@@ -282,18 +302,19 @@ body {
 
 }
 
-.cadstro {
-    margin-top: 10px;
+.butao-cadastro {
     width: 225x;
     height: 65px;
     top: 700px;
     left: 735px;
+    margin-top: 10px;
     gap: 0px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-    border: 1px solid rgba(0, 0, 0, 1)
+    border: 1px solid rgba(0, 0, 0, 1);
 
 }
+
 
 a {
     color: rgba(0, 0, 255, 1);
