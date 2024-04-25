@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo básico do HTML</title>
+    <title>Formulário de cadastro e login</title>
+
+    <link rel="stylesheet" href="./css/cadastro.css">
+
 </head>
 <body>
+
+    <div class="container">
+        <div class="login">
+                <h1 class="titulo-login">BEM VINDO DE VOLTA</h1>
+            <form action="#">
+                        <label for="e-mail" id="email-login">E-mail:</label>
+                        <input id="email1" type="email"  name="email"placeholder="E-MAIL">
+                    
+                        <label for="senha" id="senha-login">Senha:</label>
+                        <input id="senha1" type="password"  name="senha"placeholder="SENHA">
+            
+                        <button class="entrar"><a href="./paginas/objetivo.html">ENTRAR</a></button>          
+            </form>
+        </div>
+        <div class="cadastro">
+            <div class="cabecalho">
+                <div class="left">
+                    <h1 id="título2">Crie sua conta</h1>
+                    <h2 id="subtítulo">Cadastre seus dados</h2>
+                </div>
+                <div class="right">
+                    <img id="imagem" src="./imagens/descomplica.jpg" alt="#">
+                </div>
+            </div>
+            <form action="#">
+                        <label for="nome" id="nome-cadastro">Nome:</label>
+                        <input id="nome" type="text"  name="nome"placeholder="NOME COMPLETO">
+                    
+                        <label for="email" id="email-cadastro">E-mail:</label>
+                        <input id="email" type="email"  name="email"placeholder="E-MAIL">        
+
+                        <label for="telefone" id="telefone">Telefone:</label>
+                        <input id="telefone1" type="tel"  name="telefone"placeholder="(xx) xxxxx-xxxx">        
+        
+                        <label for="senha" id="senha-cadastro">Senha</label>
+                        <input id="senha2" type="password"  name="senha"placeholder="SENHA">    
+
+                        <button class="butao-cadastro"><a href="./paginas/objetivo.html">CADASTRO</a></button>
+            </form>
+
+        </div>
+
+    </div>
     
 </body>
 </html>
