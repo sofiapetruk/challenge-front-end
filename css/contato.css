@@ -1,0 +1,199 @@
+hr{
+    width: 1440px;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 60px;
+    align-items: center;    
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#top{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 22px;
+    color: rgb(20, 31, 175);
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: black;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+}
+.link{
+    list-style-type: none;
+}
+
+nav{
+    width: 70%;
+}
+
+nav ul li a {
+    font-weight: bold; 
+    font-family: Inika;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+
+}
+
+#linha-horizontal{
+    
+    position: relative;
+    top: 90px;
+    left: 0px;
+   
+}
+
+.chat {
+    text-align: right;
+}
+
+#chat {
+    font-weight: bold; 
+    font-family: Inika;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32.57px;
+    background-color: #FFF8F8;
+
+}
+
+#título {
+    width: 190px;
+    height: 45px;
+    top: 193px;
+    left: 29px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45.61px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+#nome-completo {
+    display: block;
+    width: 203px;
+    height: 33px;
+    top: 301px;
+    left: 52px;
+    margin-top: 10px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.57px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+#nome {
+    width: 650px;
+    height: 30px;
+    top: 346px;
+    left: 52px;
+    margin-top: 10px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(217, 217, 217, 1);
+    border: 1px solid rgba(0, 0, 0, 1)
+
+
+}
+
+#email-login {
+    display: block;
+    width: 203px;
+    height: 33px;
+    top: 301px;
+    left: 52px;
+    margin-top: 10px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.57px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+#email {
+    width: 650px;
+    height: 30px;
+    top: 346px;
+    left: 52px;
+    margin-top: 10px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(217, 217, 217, 1);
+    border: 1px solid rgba(0, 0, 0, 1)
+}
+
+#ajuda {
+    display: block;
+    width: 203px;
+    height: 33px;
+    top: 301px;
+    left: 52px;
+    margin-top: 10px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.57px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+#mensagem {
+    width: 650px;
+    height: 100px;
+    top: 346px;
+    left: 52px;
+    margin-top: 10px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(217, 217, 217, 1);
+    border: 1px solid rgba(0, 0, 0, 1)
+}
+
+.botao-mandar {
+    display: block;
+    width: 125px;
+    height: 45px;
+    top: 915px;
+    left: 952px;
+    margin-top: 30px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(255, 248, 248, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    text-decoration: none;
+
+}
+
