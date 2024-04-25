@@ -1,31 +1,79 @@
-header {
-    
+hr{
+    width: 1440px;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 60px;
+    align-items: center;    
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#top{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 22px;
     color: rgb(20, 31, 175);
 }
 
-h1{
-    position: absolute;
-    top: 30px;
-    left: 100x;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:left;
-    display: inline;
-    font-size: 25px;
-    
-}
 
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: black;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+}
 .link{
-    display: inline;
-    margin: 5%;
-    position:relative;
-    top: -70px;
-    left: 300px;
+    list-style-type: none;
 }
 
-nav ul li a {
-    font-weight: bold; 
-    
+nav{
+    width: 70%;
 }
+
+.cabecalho nav ul li a {
+    font-weight: bold; 
+    font-family: Inika;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+
+}
+
+#linha-horizontal{
+    
+    position: relative;
+    top: 90px;
+    left: 0px;
+   
+}
+
+.chat {
+    text-align: right;
+}
+
+#chat {
+    font-weight: bold; 
+    font-family: Inika;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32.57px;
+    background-color: #FFF8F8;
+
+}
+
 
 .container {
     margin: 20px;
@@ -44,12 +92,6 @@ form {
     bottom: -250px;
     left: 10px;
     color: #737373;
-}
-.cabecalho nav ul li a {
-    color: #737373;
-    text-decoration:none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
 }
 
 h2, h3, h4{
@@ -94,10 +136,4 @@ p{
     bottom: 600px;
    left: 900px;
 }
-#linha-horizontal{
-    width: 1270px;
-    border: 1px solid #737373;
-    position: relative;
-    top: 90px;
-   left: 0px;
-}
+
