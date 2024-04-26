@@ -17,7 +17,7 @@ hr{
     gap: 5px;
 }
 #top{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     text-align: left;
     font-size: 22px;
     color: rgb(20, 31, 175);
@@ -43,7 +43,7 @@ nav{
 
 .cabecalho nav ul li a {
     font-weight: bold; 
-    font-family: Inika;
+    font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-align: center;
@@ -66,7 +66,7 @@ nav{
 
 #chat {
     font-weight: bold; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 32.57px;
@@ -84,7 +84,7 @@ form {
     position: absolute;
     top: 30px;
     right: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: bold; 
     color: #2826b8;
 }
@@ -96,7 +96,7 @@ form {
 }
 
 h2, h3, h4{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 25px;
     background-color: #00BF63; 
     color: white; 
@@ -104,7 +104,7 @@ h2, h3, h4{
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 19px;
     text-align: justify;
 }
