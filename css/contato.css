@@ -28,7 +28,7 @@ nav ul{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    color: black;
+    color: gray;
     justify-content: space-between;
     gap: 60px;
     align-items: center;
@@ -43,11 +43,11 @@ nav{
 
 nav ul li a {
     font-weight: bold; 
-    font-family: Inika;
+    font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-align: center;
-    color: rgba(0, 0, 0, 1);
+    color: gray;
     text-decoration: none;
 
 }
@@ -66,7 +66,7 @@ nav ul li a {
 
 #chat {
     font-weight: bold; 
-    font-family: Inika;
+    font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 32.57px;
@@ -75,18 +75,20 @@ nav ul li a {
 }
 
 #título {
-    width: 190px;
+    width: 300px;
     height: 45px;
     top: 193px;
     left: 29px;
+    margin: 10px;
     gap: 0px;
     opacity: 0px;
-    font-family: Inika;
-    font-size: 35px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
     font-weight: 700;
     line-height: 45.61px;
     text-align: center;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(255, 254, 254);
+    background-color: #00BF63; 
 
 }
 
@@ -99,7 +101,7 @@ nav ul li a {
     margin-top: 10px;
     gap: 0px;
     opacity: 0px;
-    font-family: Inika;
+    font-family: Arial, sans-serif;
     font-size: 25px;
     font-weight: 400;
     line-height: 32.57px;
@@ -126,12 +128,12 @@ nav ul li a {
     display: block;
     width: 203px;
     height: 33px;
-    top: 301px;
+    top: 300px;
     left: 52px;
     margin-top: 10px;
     gap: 0px;
     opacity: 0px;
-    font-family: Inika;
+    font-family: Arial, sans-serif;
     font-size: 25px;
     font-weight: 400;
     line-height: 32.57px;
@@ -143,7 +145,7 @@ nav ul li a {
     width: 650px;
     height: 30px;
     top: 346px;
-    left: 52px;
+    left: 10px;
     margin-top: 10px;
     gap: 0px;
     opacity: 0px;
@@ -160,7 +162,7 @@ nav ul li a {
     margin-top: 10px;
     gap: 0px;
     opacity: 0px;
-    font-family: Inika;
+    font-family: Arial, sans-serif;
     font-size: 25px;
     font-weight: 400;
     line-height: 32.57px;
@@ -194,6 +196,9 @@ nav ul li a {
     background: rgba(255, 248, 248, 1);
     border: 1px solid rgba(0, 0, 0, 1);
     text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+   
 
 }
 
