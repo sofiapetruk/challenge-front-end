@@ -1,6 +1,6 @@
 hr{
     width: 1440px;
-    border: 1px solid rgba(0, 0, 0, 1);
+    border: 1px solid gray;
 }
 .cabecalho{
     display: flex;
@@ -28,7 +28,7 @@ nav ul{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    color: black;
+    color: gray;
     justify-content: space-between;
     gap: 60px;
     align-items: center;
@@ -47,15 +47,9 @@ nav ul li a {
     font-size: 18px;
     font-weight: 700;
     text-align: center;
-    color: rgba(0, 0, 0, 1);
+    color: gray;
     text-decoration: none;
 
-}
-
-#linha-horizontal{
-    
-   
-   
 }
 
 .chat {
