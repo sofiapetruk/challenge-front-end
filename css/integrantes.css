@@ -1,6 +1,6 @@
 hr{
     width: 1440px;
-    border: 1px solid rgba(0, 0, 0, 1);
+    border: 1px solid gray;
 }
 .cabecalho{
     display: flex;
@@ -17,7 +17,7 @@ hr{
     gap: 5px;
 }
 #top{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     text-align: left;
     font-size: 22px;
     color: rgb(20, 31, 175);
@@ -28,7 +28,7 @@ nav ul{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    color: black;
+    color: gray;
     justify-content: space-between;
     gap: 60px;
     align-items: center;
@@ -43,33 +43,58 @@ nav{
 
 nav ul li a {
     font-weight: bold; 
-    font-family: Inika;
+    font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-align: center;
-    color: rgba(0, 0, 0, 1);
+    color: gray;
     text-decoration: none;
 
 }
 
-#linha-horizontal{
-    
-    position: relative;
-    top: 90px;
-    left: 0px;
-   
-}
-
 .chat {
-    text-align: right;
+    text-align: center;
+
 }
 
 #chat {
     font-weight: bold; 
-    font-family: Inika;
+    font-family: Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 32.57px;
-    background-color: #FFF8F8;
+    background-color: #ffffff;
+    color: blue;
+
+}
+#imagemintegrantes{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#conteudo{
+    display: inline;position: relative;
+    bottom: 20Spx;
+    left: 50px;
+    font-size: 20px;
+}
+#conteudo2{
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+    right: 90px;
+    font-size: 20px;
+
+}
+#integrantes{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    background-color: #00BF63; 
+    color: white; 
+    padding: 0px;
+    position: relative;
+    bottom: 10px;
+    right: 50px;
+    width: 700px;
 
 }
