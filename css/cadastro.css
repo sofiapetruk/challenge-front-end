@@ -47,7 +47,7 @@ body {
   
 }
 
-#email-login {
+.email-login {
     width: 123px;
     height: 33px;
     top: 299px;
@@ -78,7 +78,7 @@ body {
     text-align: justify;
 }
 
-#senha-login {
+.senha-login {
     width: 123px;
     height: 33px;
     top: 299px;
@@ -180,7 +180,7 @@ body {
 
 
 
-#nome-cadastro {
+.nome-cadastro {
     display: block;
     width: 123px;
     height: 33px;
@@ -210,7 +210,7 @@ body {
     text-align: justify;
 }
 
-#email-cadastro {
+.email-cadastro {
     display: block;
     width: 123px;
     height: 33px;
@@ -241,7 +241,7 @@ body {
 
 }
 
-#telefone {
+.telefone {
     display: block;
     width: 123px;
     height: 33px;
@@ -270,7 +270,7 @@ body {
 
 }
 
-#senha-cadastro {
+.senha-cadastro {
     display: block;
     width: 123px;
     height: 33px;
