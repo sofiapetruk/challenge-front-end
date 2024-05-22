@@ -1,3 +1,9 @@
+* {
+    padding: 0px;
+  
+    box-sizing: border-box;
+    
+}
 hr{
     width: 1440px;
     border: 1px solid gray;
@@ -79,15 +85,7 @@ nav{
 .container {
     margin: 20px;
 }
-form {
-    padding: 10px;
-    position: absolute;
-    top: 30px;
-    right: 40px;
-    font-family: Arial, sans-serif;
-    font-weight: bold; 
-    color: #2826b8;
-}
+
 #rodape {
     position: absolute;
     bottom: -250px;
@@ -123,6 +121,8 @@ p{
     left: 700px;
 }
 #imagemobjetivo{
+    width: 20px;
+    height: 20px;
     position: relative;
     bottom: 278px;
     left: 200px;

@@ -1,100 +1,69 @@
-hr{
-    width: 1440px;
-    border: 1px solid gray;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
-.cabecalho{
-    display: flex;
-    flex-direction: row;
+
+
+
+.cabecalho {
+    display: flex; /*utiliza isso para as outras funcionalidades funcionarem/ vai deixar os itens para cima */
+    flex-direction: row; /* */
     justify-content: flex-start;
     gap: 60px;
-    align-items: center;    
-    flex-wrap: nowrap;
-    width: 100%;
-}
-.header-logo{
-    display: flex;
     align-items: center;
-    gap: 5px;
+    flex-wrap: nowrap;
+   
 }
-#top{
+
+.cabecalho nav ul li a {
+    font-weight: bold;
     font-family: Arial, sans-serif;
-    text-align: left;
-    font-size: 22px;
-    color: rgb(20, 31, 175);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: grey;
+    text-decoration: none; /*tira os negocios de baixo das li */
 }
 
-
-nav ul{
-    display: flex;
+nav ul {
+    display: flex; /*para deixar alinhado */
     flex-direction: row;
     flex-wrap: nowrap;
-    color: gray;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 60px;
     align-items: center;
-}
-.link{
-    list-style-type: none;
+
 }
 
-nav{
+.link {
+    list-style-type: none;   
+}
+
+nav {
     width: 70%;
 }
 
-nav ul li a {
-    font-weight: bold; 
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-    color: gray;
-    text-decoration: none;
-
-}
-
 .chat {
-    text-align: center;
-
+    text-align: right;
 }
 
-#chat {
-    font-weight: bold; 
-    font-family: Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 32.57px;
-    background-color: #ffffff;
-    color: blue;
-
+hr {
+    border: 1px solid gray;
 }
-#imagemintegrantes{
+
+
+.imagemintegrantes {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-#conteudo{
-    display: inline;position: relative;
-    bottom: 20Spx;
-    left: 50px;
-    font-size: 20px;
-}
-#conteudo2{
-    text-align: center;
-    position: relative;
-    bottom: 120px;
-    right: 90px;
-    font-size: 20px;
 
-}
-#integrantes{
-    font-family: Arial, sans-serif;
+h2 {
     font-size: 25px;
-    background-color: #00BF63; 
-    color: white; 
-    padding: 0px;
-    position: relative;
-    bottom: 10px;
-    right: 50px;
-    width: 700px;
-
+    font-family: Arial,  sans-serif;
 }
+
+p {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
