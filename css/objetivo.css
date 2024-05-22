@@ -1,5 +1,6 @@
 * {
     padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -58,8 +59,7 @@ hr {
 
 .container {
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
+ 
 
     
     margin: auto; /* vai deixar ele sempre no meio não importa a altura e largura*/
@@ -81,10 +81,18 @@ p {
 }
 
 .objetivo {
-    background-color: rgb(188, 140, 232);
-    width: 600px;
-    height: 500px;
+   background-color: rgb(171, 113, 226);
+    width: 650px;
+    height: 450px;
+    margin: 20px;
     
+}
+
+#imagemobjeto {
+    display: flex;
+    position: relative;
+    bottom: 262px;
+    left: 185px;
 }
 
 #objeto{
@@ -92,9 +100,17 @@ p {
 }
 
 .funcionamento {
-    background-color: rgb(228, 122, 122);
-    width: 600px;
+    background-color: rgb(190, 90, 90);
+    width: 650px;
     height: 500px;
+    margin: 20px;
+}
+
+#imagemfuncionalidade {
+    position: relative;
+    bottom: 205px;
+    left: 195px;
+
 }
 
 .funcao{
@@ -107,19 +123,30 @@ p {
     width: 600px;
     height: 500px;
     position: absolute;
-    bottom: 70px;
-    left: 700px;
+    bottom: 125px;
+    left: 775px;
+}
+
+#imagemdiferencial {
+    position: relative;
+    bottom: 262px;
+   left: 230px;
+    
 }
 
 .dife {
     background-color: cornflowerblue;
 }
 
-#imagem-mecanico {
+.mecanico {
     position: absolute;
+    left: 1px;
+    margin: 10px;
    
 
 }
+
+
 
 
 
