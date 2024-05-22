@@ -320,3 +320,21 @@ a {
     color: rgba(0, 0, 255, 1);
 
 }
+
+/* Media Queries para Responsividade */
+@media (max-width: 1080), (max-height: 1200px) {
+
+
+}
+    
+@media (max-width: 834), (max-height: 1194px) {
+
+}
+
+@media (max-width: 744), (max-height: 1133px) {
+
+}
+
+@media (max-width: 430), (max-height: 932px) {
+
+}

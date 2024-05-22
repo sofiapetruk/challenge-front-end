@@ -8,6 +8,7 @@ hr{
     border: 1px solid gray;
 }
 .cabecalho{
+    background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -115,3 +116,112 @@ h2 {
 }
 
 
+/* Media Queries para Responsividade */
+
+/* Para largura máxima de 1080px ou altura máxima de 1200px */
+@media (max-width: 1080px), (max-height: 1200px) {
+    hr {
+        width: 100%;
+    }
+    .cabecalho {
+     
+        gap: 20px;
+    }
+    nav {
+        width: 100%;
+    }
+    nav ul {
+       
+        gap: 15px;
+    }
+    #top {
+        font-size: 20px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    #título {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+}
+
+/* Para largura máxima de 834px ou altura máxima de 1194px */
+@media (max-width: 834px), (max-height: 1194px) {
+    hr {
+        width: 100%;
+    }
+    .cabecalho {
+        gap: 20px;
+    }
+    nav ul {
+        gap: 10px;
+    }
+    #top {
+        font-size: 18px;
+    }
+    nav ul li a {
+        font-size: 15px;
+    }
+    #título {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* Para largura máxima de 744px ou altura máxima de 1133px */
+@media (max-width: 744px), (max-height: 1133px) {
+    hr {
+        width: 100%;
+    }
+    .cabecalho {
+        gap: 15px;
+    }
+    nav ul {
+        gap: 10px;
+    }
+    #top {
+        font-size: 17px;
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
+    #título {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+}
+
+/* Para largura máxima de 430px ou altura máxima de 932px */
+@media (max-width: 430px), (max-height: 932px) {
+    hr {
+        width: 100%;
+    }
+    .cabecalho {
+        gap: 10px;
+    
+    }
+ 
+    nav ul {
+        gap: 5px;
+     
+    }
+    #top {
+        font-size: 16px;
+    }
+    nav ul li a {
+        font-size: 13px;
+    }
+    #título {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+}
