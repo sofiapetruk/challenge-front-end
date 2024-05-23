@@ -77,7 +77,8 @@ hr{
 .imagemintegrantes {
     display: flex;
     align-items: center;
-    gap: 5px;
+    justify-items: center;
+    margin: 10px;
 }
 
 h2 {
@@ -115,6 +116,7 @@ p {
     #chat {
         font-size: 20px;
     }
+   
 }   
 
 @media only screen and (max-width: 834px) {
@@ -134,6 +136,17 @@ p {
         font-size: 18px;
     }
     #chat {
+        font-size: 18px;
+    }
+    #imagemintegrante {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    p {
         font-size: 18px;
     }
 }  
@@ -157,6 +170,12 @@ p {
     #chat {
         font-size: 15px;
     }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 17px;
+    }
 }   
 
 @media screen and (max-width: 620px) {
@@ -177,6 +196,12 @@ p {
     }
     #chat {
         font-size: 13px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    p {
+        font-size: 16px;
     }
 
     
@@ -200,6 +225,12 @@ p {
     }
     #chat {
         font-size: 10px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 15px;
     }
   
 }
