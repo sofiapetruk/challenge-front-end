@@ -1,339 +1,147 @@
 * {
     padding: 0;
     box-sizing: border-box;
-    
 }
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-
+    margin: 0;
+    height: 100vh; 
 }
 
 .container {
     margin: 20px;
     width: 75%;
+    max-width: 1200px; 
     height: 85vh;
-    display: flex;  /*Isso permite que os elementos responsivos dentro de um contêiner sejam organizados automaticamente*/
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.login, .cadastro {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .login {
-    padding: 20px;
-    width: 500px;
-    position: relative;
-    height: 100%;
-    gap: 10px;
-    border: 1px 1px 1px 1px;
-    opacity: 0px;
     background: #00BF63;
     border: 1px solid #00BF63;
 }
 
+.cadastro {
+    background: #FFFFFF;
+}
+
+.titulo-login, .email-login, .senha-login, #título2, #subtítulo, .nome-cadastro, .email-cadastro, .telefone, .senha-cadastro {
+    font-family: Inter, sans-serif; 
+    opacity: 1; 
+}
+
 .titulo-login {
-    width: 403px;
-    height: 146px;
-    top: 64px;
-    left: 43px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inter;
     font-size: 40px;
     font-weight: 400;
-    line-height: 50px; /*Depois modificar a altura do título */
+    line-height: 50px;
     text-align: center;
-    color: white
-  
+    color: white;
+    margin-bottom: 20px; 
 }
 
-.email-login {
-    width: 123px;
-    height: 33px;
-    top: 299px;
-    left: 49px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inika;
+.email-login, .senha-login {
     font-size: 25px;
     font-weight: 700;
     line-height: 39.09px;
     text-align: justify;
     color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px; 
 }
 
-
-
-#email1 {
+#email1, #senha1, #nome, #email, #telefone1, #senha2 {
     display: block;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 40px;
-    top: 349px;
-    left: 40px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
+    margin-bottom: 20px; 
     background: rgba(217, 217, 217, 1);
     border: 1px solid rgba(0, 0, 0, 1);
     text-align: justify;
+    padding: 0 10px; 
 }
 
-.senha-login {
-    width: 123px;
-    height: 33px;
-    top: 299px;
-    left: 49px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inika;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 39.09px;
-    text-align: justify;
-    color: rgba(255, 255, 255, 1);
-
-}
-
-#senha1 {
-    display: block;
-    width: 400px;
+#entrar {
+    margin-top: 30px;
+    width: 200px;
     height: 40px;
-    top: 349px;
-    left: 40px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    background: rgba(217, 217, 217, 1);
     border: 1px solid rgba(0, 0, 0, 1);
-    text-align: justify;
+    background-color: white;
+    cursor: pointer; 
 }
 
-.entrar {
-    margin-top: 10px;
-    width: 150px;
-    height: 50px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    border: 1px solid rgba(0, 0, 0, 1);
-
-}
-
-
-
-
-.cadastro{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
-}
-
-.cadastro .cabecalho{
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.cabecalho .left{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-.cabecalho .right{
-    display: flex;
-    justify-content: end;
-}
 #título2 {
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inika;
     font-size: 45px;
     font-weight: 500;
-    line-height: 0px;
+    line-height: normal;
     color: rgba(0, 0, 255, 1);
-
-}    
+    margin-bottom: 20px; 
+}
 
 #subtítulo {
-    font-family: Inika;
     font-size: 25px;
     font-weight: 500;
     text-align: left;
-    align-items: flex-start;
     color: rgba(0, 0, 0, 1);
-    
-
+    margin-bottom: 20px; 
 }
 
 #imagem {
     width: 100px;
     height: 80px;
-    top: 12.29px;
-    left: 1182px;
-    gap: 0px;
-    opacity: 0px;
-
+    opacity: 1;
+    margin-bottom: 20px; 
 }
 
-
-
-.nome-cadastro {
-    display: block;
-    width: 123px;
-    height: 33px;
-    top: 299px;
-    left: 49px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inika;
+.nome-cadastro, .email-cadastro, .telefone, .senha-cadastro {
     font-size: 20px;
     font-weight: 700;
     line-height: 39.09px;
     text-align: justify;
     color: rgb(0, 0, 0);
-
-}
-
-#nome {
-    width: 350px;
-    height: 30px;
-    top: 349px;
-    left: 40px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    background: rgba(217, 217, 217, 1);
-    border: 1px solid rgba(0, 0, 0, 1);
-    text-align: justify;
-}
-
-.email-cadastro {
-    display: block;
-    width: 123px;
-    height: 33px;
-    top: 299px;
-    left: 49px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inika;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 39.09px;
-    text-align: justify;
-    color: rgb(0, 0, 0);
-    
-}
-
-#email {
-    width: 350px;
-    height: 30px;
-    top: 349px;
-    left: 40px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    background: rgba(217, 217, 217, 1);
-    border: 1px solid rgba(0, 0, 0, 1);
-    text-align: justify;
-
-}
-
-.telefone {
-    display: block;
-    width: 123px;
-    height: 33px;
-    top: 299px;
-    left: 49px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inika;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 39.09px;
-    text-align: justify;
-    color: rgb(0, 0, 0);
-}
-#telefone1 {
-    width: 350px;
-    height: 30px;
-    top: 349px;
-    left: 40px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    background: rgba(217, 217, 217, 1);
-    border: 1px solid rgba(0, 0, 0, 1);
-    text-align: justify;
-
-}
-
-.senha-cadastro {
-    display: block;
-    width: 123px;
-    height: 33px;
-    top: 299px;
-    left: 49px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inika;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 39.09px;
-    text-align: justify;
-    color: rgb(0, 0, 0);
-
-}
-
-#senha2 {
-    display: block;
-    width: 350px;
-    height: 30px;
-    top: 349px;
-    left: 40px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    background: rgba(217, 217, 217, 1);
-    border: 1px solid rgba(0, 0, 0, 1);
-    text-align: justify;
-
+    margin-bottom: 10px; 
 }
 
 .butao-cadastro {
-    width: 500x;
-    height: 65px;
-    top: 700px;
-    left: 735px;
-    margin-top: 10px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
     border: 1px solid rgba(0, 0, 0, 1);
-
+    background-color: white;
+    cursor: pointer; /* Cursor de ponteiro */
 }
-
 
 a {
     color: rgba(0, 0, 255, 1);
-
 }
 
-@media (max-width: 1080), (max-height: 1200px) {
-
-
-}
-    
-@media (max-width: 834), (max-height: 1194px) {
-
+@media screen and (max-width: 711px) {
+    .container {
+        flex-direction: column;
+        height: auto; 
+    }
 }
 
-@media (max-width: 744), (max-height: 1133px) {
+@media screen and (max-width: 620px) {
+    .container {
+        width: 80%; 
+    }
 
-}
-
-@media (max-width: 430), (max-height: 932px) {
-
+    #entrar, .butao-cadastro {
+        width: 100%;
+    }
 }
