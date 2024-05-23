@@ -70,6 +70,7 @@ nav ul li a {
 }
 
 hr{
+    width: 100%px;
     border: 1px solid gray;
 }
 
@@ -114,7 +115,6 @@ p {
 
 /* Media Queries para Responsividade */
 
-/* Para largura máxima de 1080px ou altura máxima de 1200px */
 @media only screen and (max-width: 1080px) {
     hr {
         width: 100%;
@@ -149,7 +149,6 @@ p {
     }
 }
 
-/* Para largura máxima de 834px ou altura máxima de 1194px */
 @media only screen and (max-width: 834px) {
     hr {
         width: 100%;
@@ -180,7 +179,6 @@ p {
     }
 }
 
-/* Para largura máxima de 744px ou altura máxima de 1133px */
 @media screen and (max-width: 711px) {
     hr {
         width: 100%;
@@ -211,7 +209,6 @@ p {
     }
 }
 
-/* Para largura máxima de 430px ou altura máxima de 932px */
 @media screen and (max-width: 620px) {
     hr {
         width: 100%;

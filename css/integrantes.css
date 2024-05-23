@@ -1,57 +1,78 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
     box-sizing: border-box;
+    
 }
 
-
-
-.cabecalho {
-    display: flex; /*utiliza isso para as outras funcionalidades funcionarem/ vai deixar os itens para cima */
-    flex-direction: row; /* */
+.cabecalho{
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     gap: 60px;
-    align-items: center;
+    align-items: center;    
     flex-wrap: nowrap;
    
 }
-
-.cabecalho nav ul li a {
-    font-weight: bold;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-    color: grey;
-    text-decoration: none; /*tira os negocios de baixo das li */
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#top{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 25px;
+    color: rgb(20, 31, 175);
 }
 
-nav ul {
-    display: flex; /*para deixar alinhado */
+
+nav ul{
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    color: gray;
     justify-content: space-around;
     gap: 60px;
     align-items: center;
-
+}
+.link{
+    list-style-type: none;
 }
 
-.link {
-    list-style-type: none;   
-}
-
-nav {
+nav{
     width: 70%;
 }
+
+nav ul li a {
+    font-weight: bold; 
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+
+}
+
 
 .chat {
     text-align: right;
 }
 
-hr {
-    border: 1px solid gray;
+#chat {
+    font-weight: bold; 
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32.57px;
+    background-color: #FFF8F8;
+
 }
 
+hr{
+    width: 100%;
+    border: 1px solid gray;
+}
 
 .imagemintegrantes {
     display: flex;
@@ -71,7 +92,6 @@ p {
 
 /* Media Queries para Responsividade */
 
-/* Para largura máxima de 1080px ou altura máxima de 1200px */
 @media only screen and (max-width: 1080px) {
     hr {
         width: 100%;
@@ -97,7 +117,6 @@ p {
     }
 }   
 
-/* Para largura máxima de 834px ou altura máxima de 1194px */
 @media only screen and (max-width: 834px) {
     hr {
         width: 100%;
@@ -119,7 +138,6 @@ p {
     }
 }  
 
-/* Para largura máxima de 744px ou altura máxima de 1133px */
 @media screen and (max-width: 711px) {
     hr {
         width: 100%;
@@ -141,7 +159,6 @@ p {
     }
 }   
 
-/* Para largura máxima de 430px ou altura máxima de 932px */
 @media screen and (max-width: 620px) {
     hr {
         width: 100%;
