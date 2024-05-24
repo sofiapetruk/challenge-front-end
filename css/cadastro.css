@@ -19,7 +19,7 @@ body {
     margin: 20px;
     width: 70%;
     max-width: 1200px; 
-    height: 85svh;
+    height: 95svh;
     display: flex;
     flex-direction: row;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
@@ -226,6 +226,6 @@ a {
     display: flex;
     position: relative;
     bottom: 50x;
-    left: 915px;
+    left: 885px;
 
 }
