@@ -81,14 +81,15 @@ body {
 }
 
 #entrar {
-    margin-top: 30px;
+    margin-top: 35px;
     width: 300px;
-    height: 40px;
+    height: 60px;
     border: 1px solid rgba(0, 0, 0, 1);
     background-color: white;
     cursor: pointer; 
     font-weight: bold;
     font-family:Arial, sans-serif;
+    
 }
 
 #título2 {
@@ -210,6 +211,7 @@ a {
         font-size: 15px;
     }                    
 }
-#botao-cadastro{
+#entrar{
+    border-radius: 20%;
    
 }
