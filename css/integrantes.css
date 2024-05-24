@@ -51,6 +51,7 @@ nav ul li a {
     text-align: center;
     color: gray;
     text-decoration: none;
+    
 
 }
 
@@ -84,6 +85,11 @@ hr{
 h2 {
     font-size: 25px;
     font-family: Arial,  sans-serif;
+    background-color: #00BF63;
+    color: white;
+    padding: 5px;
+    width: 700px;
+
 }
 
 p {
