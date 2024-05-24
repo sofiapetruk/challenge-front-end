@@ -17,7 +17,7 @@ body {
 
 .container {
     margin: 20px;
-    width: 75%;
+    width: 70%;
     max-width: 1200px; 
     height: 85svh;
     display: flex;
@@ -34,12 +34,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .login {
     background: #00BF63;
     border: 1px solid #00BF63;
     border-radius: 5%;
+    
 }
 
 .cadastro {
@@ -216,4 +218,14 @@ a {
 #entrar{
     border-radius: 20%;
    
+}
+#imagemobjeto{
+    width: 7%;
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    bottom: 50x;
+    left: 1000px;
+
 }
