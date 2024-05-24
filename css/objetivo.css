@@ -154,11 +154,11 @@ p {
 }
 
 #imagemmecanico {
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    
-}
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        
+    }
 
 /* Media Queries para Responsividade */
 
