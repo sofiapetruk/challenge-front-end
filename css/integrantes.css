@@ -21,7 +21,7 @@
 #top{
     font-family: Arial, sans-serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(20, 31, 175);
 }
 
@@ -46,7 +46,7 @@ nav{
 nav ul li a {
     font-weight: bold; 
     font-family: Arial, sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
     color: gray;
