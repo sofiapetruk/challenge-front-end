@@ -85,7 +85,7 @@ body {
 }
 
 #título2 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 500;
     line-height: normal;
     color: rgba(0, 0, 255, 1);
@@ -129,19 +129,72 @@ a {
     color: rgba(0, 0, 255, 1);
 }
 
-@media screen and (max-width: 711px) {
-    .container {
-        flex-direction: column;
-        height: auto; 
+
+@media only screen and (max-width: 834px) {
+    #título2 {
+        font-size: 35px;
     }
+    #subtítulo {
+        font-size: 22px;
+    }
+    
+
+}
+@media screen and (max-width: 711px) {
+    .titulo-login {
+        font-size: 30px;
+    }
+    #título2 {
+        font-size: 30px;
+    }
+    #subtítulo {
+        font-size: 20px;
+    }
+    .email-login, .senha-login {
+        font-size: 18px;
+    }
+    .nome-cadastro, .email-cadastro, .telefone, .senha-cadastro {
+        font-size: 18px;
+    }
+    
 }
 
 @media screen and (max-width: 620px) {
+    .titulo-login {
+        font-size: 25px;
+    }
+    #título2 {
+        font-size: 25px;
+    }
+    #subtítulo {
+        font-size: 18px;
+    }
+    .email-login, .senha-login {
+        font-size: 15px;
+    }
+    .nome-cadastro, .email-cadastro, .telefone, .senha-cadastro {
+        font-size: 15px;
+    }
+}   
+@media screen and (max-width: 565px) {
     .container {
-        width: 80%; 
-    }
-
-    #entrar, .butao-cadastro {
+        flex-direction: column;
         width: 100%;
+        height: 100%;
     }
+    .titulo-login {
+        font-size: 25px;
+    }
+    #título2 {
+        font-size: 25px;
+    }
+    #subtítulo {
+        font-size: 18px;
+    }
+    .email-login, .senha-login {
+        font-size: 15px;
+    }
+    .nome-cadastro, .email-cadastro, .telefone, .senha-cadastro {
+        font-size: 15px;
+    }                    
 }
